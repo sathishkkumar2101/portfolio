@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".dynamic-text", {
+        strings: ["Frontend Developer", "Programmer", "Web Developer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true,
+      });
+    </script>
+    <title>Portfolio website</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>Sath</span>ish</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" >Home</a>
+        <a href="#about">About</a>
+
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="contact"><a href="#contact">Contact Me</a></button>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h2>Hi, It's <span>sathish</span></h2>
+        <div class="wrapper">
+          <div class="static-txt">I'm a</div>
+          <ul class="dynamic-text">
+            <!-- <li><span></span></li> -->
+            <!-- <li><span>Frontend Developer</span></li>
+            <li><span>Programmer</span></li> -->
+            <li><span>Web Developer</span></li>
+          </ul>
+        </div>
+
+        <p
+          style="
+            margin-left: 30px;
+            /* text-align: left; */
+            font-size: 15px;
+            font-weight: 550;
+            color: rgba(0, 0, 0, 0.925);
+            width: 110%;
+          "
+        >
+          Hello! I'm Sathish, a B.Tech student specializing in Information
+          Technology at Vellore Institute of Technology (VIT). I have a passion
+          for technology and a keen interest in developing innovative solutions
+          to real-world problems. With a solid foundation in IT and hands-on
+          experience in various projects, I am excited to embark on a journey
+          towards a successful career in the tech industry.
+        </p>
+        <div class="social-icons">
+          <a href="https://github.com/sathishkkumar2101"
+           target="_self" ><i class="bx bxl-github"></i
+          ></a>
+          
+          <a href="https://www.linkedin.com/in/sathish2101/" target="_self"><i class="bx bxl-linkedin-square"></i></a>
+          <a href="tel:+917904674488"><i class='bx bxl-whatsapp-square'></i></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="#" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="sathish.jpg" alt="" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="sathish.jpg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          Hello! I'm Sathish, a B.Tech student specializing in Information
+          Technology at Vellore Institute of Technology (VIT). I have a passion
+          for technology and a keen interest in developing innovative solutions
+          to real-world problems. With a solid foundation in IT and hands-on
+          experience in various projects, I am excited to embark on a journey
+          towards a successful career in the tech industry.
+        </p>
+        <a href="#" class="btn-2">Read More</a>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="cal.PNG" alt="" />
+          <h3>Basic Calculator</h3>
+          <p>
+            The Basic Calculator Web Application project aims to develop a user-friendly web calculator for standard arithmetic operations. It features a visually appealing interface, responsive design, and error handling. The application supports both button and keyboard inputs for ease of use and provides fast, accurate calculations. This project enhances skills in HTML, CSS, and JavaScript.
+          </p>
+          <div class="btn"><a href="https://sathish2101.neocities.org/calculator/advance%20cal" target="_self" rel="noopener noreferrer">Review projects</a></div>
+        </div>
+        <div class="project-card">
+          <img src="event.png" alt="" />
+          <h3>Event Management</h3>
+          <p>
+            The Event Management Web Application aims to provide users with information about upcoming events and ensure they stay updated. Features include a visually appealing interface with event details, an interactive calendar. The application ensures fast loading times, responsive design, and easy navigation. It supports user registration and login for personalized event recommendations and reminders. 
+          </p>
+          <div class="btn"><a href="https://sathish2101.neocities.org/event/event" target="_self" rel="noopener noreferrer">Review projects</a></div>
+        </div>
+        <div class="project-card">
+          <img src="weather.png" alt="" />
+          <h3>Weather Forecast</h3>
+          <p>
+            The Weather Forecast Web Application aims to provide real-time weather updates for various locations. Key features include a user-friendly interface displaying temperature, humidity, and wind speed. The application ensures quick data retrieval, accurate forecasts, and a responsive design for different devices. It supports location search functionality for easy access to weather information worldwide. 
+          </p>
+          <div class="btn"><a href="https://lnkd.in/gsX-KZEv" target="_self" rel="noopener noreferrer">Review Projects</a></div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-code"></i>
+            <h4>Frontend Devlopement</h4>
+            <p>
+              Creating responsive and visually appealing user interfaces using
+              the latest frontend technologies such as HTML, CSS, and JavaScript
+              frameworks.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-code-curly"></i>
+            <h4>Backend Developmentt</h4>
+            <p>
+              Building robust and scalable server-side applications with
+              technologies like Node.js, Express.js, and databases such as SQL
+              and NoSQL.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bxl-figma"></i>
+            <h4>UI / UX Design</h4>
+            <p>
+              Designing intuitive and user-friendly interfaces and experiences,
+              ensuring the best possible user interaction with your digital
+              products.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-form" id="contact" style="scroll-margin-bottom: 0">
+      <h2 class="contact-me">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full name" />
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Phone Number" />
+          <input type="text" placeholder="Subject" />
+        </div>
+        <textarea
+          name=""
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input class="btn" type="submit" value="Send Message" />
+      </form>
+    </section>
+    <section class="end">
+      <nav aria-label="Footer navigation">
+        <ul class="list">
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">About Me</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+      </div>
+      <p class="copyright">2024 sathish | All Rights Reserved</p>
+    </section>
+    <!-- <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>About Me</h4>
+              <p>Hello! I'm Sathish, a B.Tech student specializing in Information Technology at Vellore Institute of Technology (VIT).</p>
+            </div>
+            <div class="footer-col">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Follow Me</h4>
+              <div class="social-links">
+                <a href="#"><i class="bx bxl-github"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="copyright">© 2024 Sathish. All rights reserved.</p>
+      </footer>
+       -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
